@@ -20,4 +20,4 @@ else:
     stdform = stdform.replace('x10^', 'E')
   elif stdform.count('E') == 1:
     stdform = stdform.replace('E', 'x10^')
-print(f'This number in E notation is {stdform}.' )
+  print(f'This number in E notation is {stdform}.' )
